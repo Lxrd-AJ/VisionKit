@@ -1,6 +1,6 @@
 # VisionKit
-Haskell Computer Vision Algorithms Library
+Eredo!!! Computer Vision Algorithms Library. Use ampnet as a backbone for building this
 
-# Haskell Vision Libraries 
-* https://hackage.haskell.org/package/hip Main!!!
-* Also consider REPA but I prefer Hip
+# Dependencies 
+* OpenCV
+* Testing framework https://github.com/Snaipe/Criterion 
