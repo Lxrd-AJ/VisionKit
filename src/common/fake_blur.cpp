@@ -12,7 +12,8 @@
 namespace vision { namespace common {
 
     cv::Mat blur(cv::Mat image, std::tuple<int,int> kernel_size){
-        std::tie (int x,int y) = kernel_size;
+        int x,y;
+        std::tie (x,y) = kernel_size;
         cv::Mat result;
         cv::GaussianBlur(image, result, cv::Size(x,y), 0);
         return result;

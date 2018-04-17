@@ -3,4 +3,9 @@ Eredo!!! Computer Vision Algorithms Library. Use ampnet as a backbone for buildi
 
 # Dependencies 
 * OpenCV
-* Testing framework https://github.com/Snaipe/Criterion 
+* Testing framework https://github.com/Snaipe/Criterion or CTest https://cmake.org/Wiki/CMake/Testing_With_CTest
+
+# TODO (Tooling)
+- [ ] Include test support
+- [ ] Include cmake cross-platform support
+- [ ] Add SWIG support (NodeJS Extensions)

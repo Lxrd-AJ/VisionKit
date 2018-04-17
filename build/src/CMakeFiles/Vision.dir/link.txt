@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVision.a  CMakeFiles/Vision.dir/common/fake_blur.cpp.o
+/usr/bin/ranlib libVision.a

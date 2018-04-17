@@ -7,7 +7,7 @@
  * Global classes and functions go here 
  * */
 namespace vision {
-    std::string version ( "1.0.0" );
+    const std::string version ( "1.0.0" );
 }
 
 #endif
