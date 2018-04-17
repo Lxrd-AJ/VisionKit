@@ -3,6 +3,7 @@
 #include "common/fake_blur.h"
 #include <opencv2/opencv.hpp>
 #include <tuple>
+#include <iostream>
 
 using namespace vision;
 
@@ -13,11 +14,13 @@ int main(int argc, char** argv){
     cv::imshow("Input_Image", image);
 
     auto result = common::blur(image, std::make_tuple(5,5));
+    // std::cout << result << std::endl;
 
     cv::namedWindow("Result");
     cv::imshow("Result", result);
 
     cv::waitKey(0);
+    cv::destroyAllWindows();
 
     return 0;
 }
