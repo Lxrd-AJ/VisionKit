@@ -5,7 +5,8 @@
 #include <tuple>
 #include <iostream>
 
-using namespace vision;
+// using namespace vision;
+namespace common = vision::common;
 
 int main(int argc, char** argv){
     cv::Mat image = cv::imread("./bp.jpg");
