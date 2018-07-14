@@ -1,5 +1,5 @@
 # VisionKit
-Eredo!!! Computer Vision Algorithms Library. Use ampnet as a backbone for building this
+Eredo!!! Computer Vision Algorithms Library. 
 
 # Dependencies 
 * OpenCV
