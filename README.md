@@ -14,3 +14,6 @@ Eredo!!! Computer Vision Algorithms Library.
 - [ ] Include test support
 - [ ] Include cmake cross-platform support
 - [ ] Add SWIG support (NodeJS Extensions)
+
+# TODO (Feature Extraction)
+- [ ] Sobel Edge Detection (image,kernel_size) -> (edge_magnitude,edge_directions)
